@@ -1,4 +1,75 @@
-datasets/
-.venv/
-outputs/
-secrets/
+# Local datasets; leading slashes keep tests/fixtures/dataset/ trackable.
+/dataset/
+/datasets/
+/Data Set ML Challenge/**/dataset/
+
+# Local environments and generated artifacts.
+/venv/
+/.venv/
+/env/
+/ENV/
+/artifacts/
+/output/
+/outputs/
+/models/
+/checkpoints/
+/logs/
+/tmp/
+/secrets/
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Root-level exports from exploratory runs. Keep synthetic TSV fixtures tracked.
+/matching_results.tsv
+/candidate_pairs.tsv
+/training_pairs.tsv
+/scored_pairs.tsv
+
+# Generated databases, serialized models, and downloaded/submission archives.
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.pkl
+*.pickle
+*.joblib
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Python and test caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage*
+htmlcov/
+/coverage.xml
+/build/
+/dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Machine-local editor and agent settings.
+/.vscode/
+/.idea/
+/.agents/
+/.codex/
+
+# Metadata from extracted archives and Windows downloads.
+__MACOSX/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*:Zone.Identifier

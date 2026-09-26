@@ -1,0 +1,9 @@
+entity_id	business_name	business_address	country
+S1-demo-many	Silver Bakery	40 Elm Lane	US
+S1-demo-one	Lotus Books	12 Lotus Road	India
+S1-demo-na	Northern Atelier	9 Violet Square	India
+S1-demo-unicode	École Soleil	31 Rue Bleue	France
+S1-demo-script	చంద్ర స్టోర్స్	6 కమల వీధి	India
+S1-demo-empty	  		ExampleCountry
+S1-demo-reject	Silver Bakery	900 Other Avenue	US
+S1-demo-missed	ZZQQ		ExampleCountry

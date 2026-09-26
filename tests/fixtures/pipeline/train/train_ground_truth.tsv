@@ -1,0 +1,11 @@
+source1_entity_id	matched_entity_ids
+S1-tr01	S2-tr01,S3-tr01
+S1-tr02	S2-tr03
+S1-tr03	S3-tr03
+S1-tr04	S2-tr04
+S1-tr05	S2-tr05
+S1-tr06	S2-tr06
+S1-tr07	
+S1-tr08	S2-tr08
+S1-tr09	
+S1-tr10	S3-tr06

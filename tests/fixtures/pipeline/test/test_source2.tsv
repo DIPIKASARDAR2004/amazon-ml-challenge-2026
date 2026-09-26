@@ -1,0 +1,6 @@
+entity_id	business_name	business_address	country
+S2-demo-many	Silver Bakery	40 Elm Lane	US
+S2-demo-one	LOTUS BOOKS	12 Lotus Road	India
+S2-demo-na-other	NA	600 Different Boulevard	India
+S2-demo-unicode	ÉCOLE SOLEIL	31 Rue Bleue	France
+S2-demo-distractor	Silver Bakery	700 Faraway Street	US

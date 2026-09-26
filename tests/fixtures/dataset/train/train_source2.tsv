@@ -1,0 +1,4 @@
+entity_id	business_name	business_address	country
+S2-00001	National Atelier	12 Example Road, Example City	India
+S2-00002	NULL		US
+S2-00003	nan	3 Example Street	ExampleCountry

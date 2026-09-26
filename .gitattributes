@@ -1,0 +1,5 @@
+# A trailing tab is a meaningful empty TSV field in these fixtures.
+tests/fixtures/**/*.tsv text eol=lf whitespace=-blank-at-eol
+
+# Preserve Markdown line breaks and empty TSV fields in the supplied documents.
+"Data Set ML Challenge/student_resource/*.md" text eol=lf whitespace=-blank-at-eol
